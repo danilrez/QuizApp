@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   max-width: 1100px;
-  background: #101324d7;
+  background: #101324dd;
   border-radius: 10px;
   border: 2px solid #676d8f;
   color: #c9ccd8;
@@ -33,14 +33,14 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     margin: 5px 0;
     background: ${({ correct, userClicked }) =>
       correct
-        ? 'linear-gradient(90deg, #56FFA4, #59BC86)'
+        ? 'linear-gradient(90deg, #236944, #149e52)'
         : !correct && userClicked
-        ? 'linear-gradient(90deg, #FF5656, #C16868)'
-        : 'linear-gradient(90deg, #56ccff, #6eafb4)'};
-    border: 3px solid #ffffff;
+        ? 'linear-gradient(90deg,  #FF5656, #C16868)'
+        : 'linear-gradient(90deg, #1b253c, #676d8f)'};
+    border: 2px solid #676d8fdd;
     box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    color: #fff;
+    color: #d9dde8;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
   }
 `;
